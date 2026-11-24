@@ -1,0 +1,57 @@
+{
+  "contractName": "MockAgentID",
+  "sourceName": "MockAgentID.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "mint",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "setBalance",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b506101b68061001f6000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80636a6278421461004657806370a082311461005b578063e30443bc14610096575b600080fd5b61005961005436600461010d565b6100c0565b005b61008461006936600461010d565b6001600160a01b031660009081526020819052604090205490565b60405190815260200160405180910390f35b6100596100a436600461012f565b6001600160a01b03909116600090815260208190526040902055565b6001600160a01b03811660009081526020819052604081208054600192906100e9908490610159565b909155505050565b80356001600160a01b038116811461010857600080fd5b919050565b60006020828403121561011f57600080fd5b610128826100f1565b9392505050565b6000806040838503121561014257600080fd5b61014b836100f1565b946020939093013593505050565b8082018082111561017a57634e487b7160e01b600052601160045260246000fd5b9291505056fea2646970667358221220be35295a0fb5d7b4d39165642bd69c015c1541b1f70f25b31859e741c20ce69164736f6c63430008270033"
+}
