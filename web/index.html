@@ -60,7 +60,7 @@
       <button id="connectBtn">Connect wallet</button>
       <select id="networkSel">
         <option value="testnet">BSC Testnet</option>
-        <option value="mainnet">BSC Mainnet</option>
+        <option value="mainnet" selected>BSC Mainnet</option>
       </select>
       <span class="status" id="walletStatus">Not connected</span>
     </div>
@@ -136,7 +136,7 @@ const NETWORKS = {
     chainId: 56,
     rpc: "https://bsc-rpc.publicnode.com",
     explorer: "https://bscscan.com",
-    agentPages: "", // TODO: paste mainnet AgentPages address
+    agentPages: "0xaab50aa3bc81f70c7b95d530b795e3e2ed7f4c29", // deployed 2026-11-24 via CreateX, tx 0x49375bdb29983ef4eba8f1ee4b89533ab0a7d42576268703d7adbe653ee544ea
     gate: REAL_AGENT_ID,
   },
 };
